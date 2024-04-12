@@ -4,6 +4,6 @@ public class Add {
         int firstNumber=5;
         int secondNumber=7;
         int addTwoNumbers=firstNumber+secondNumber;
-        System.out.println(addTwoNumbers);
+        System.out.println("Addition of "+firstNumber+" and "+secondNumber+":"+addTwoNumbers);
     }
 }
