@@ -1,9 +1,9 @@
 /*
-*****
-*   *
-*   *
-*   *
-*****
+* * * * *
+*       *
+*       *
+*       *
+* * * * *
  */
 class PatternSecond {
     public static void main(String[] args) {

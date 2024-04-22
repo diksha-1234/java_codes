@@ -1,8 +1,8 @@
 /*Write a java program to print pattern
-*****
-*****
-*****
-*****
+* * * * *
+* * * * *
+* * * * *
+* * * * *
 */
 class PatternFirst {
     public static void main(String[] args) {
