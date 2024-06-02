@@ -1,4 +1,6 @@
-//Write a java program to delete vowels using StringBuffer class.
+//Q24.Write a java program to delete vowels using StringBuffer class.
+
+
 import java.util.Scanner;
 public class DelVowel {
     public static void main(String[] args) {

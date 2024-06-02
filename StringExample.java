@@ -11,6 +11,8 @@ ending with a vowel.
 void placeWord(): Place the words which begin andend with a vowel at the
 beginning, followed by the remaining words as they occur in the sentence
 */
+
+
 import java.util.*;
 public class StringExample{
     public static void main(String[] args) {
