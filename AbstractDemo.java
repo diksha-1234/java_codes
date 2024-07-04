@@ -45,5 +45,7 @@ public class AbstractDemo{
          a.rectanglearea(length,breadth);
          a.squarearea(s);
          a.circlearea(r);
+
+         sc.close();
     }
 }

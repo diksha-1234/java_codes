@@ -27,5 +27,7 @@ public class Zigzag2 {
         {
             System.out.println(arr[i]);
         }
+
+        sc.close();
     }
 }

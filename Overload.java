@@ -92,5 +92,7 @@ public class Overload{
         a.arrayfun(arr,key);
         System.out.println("DISPLAY2");
         a.arrayfun(arr1,p,arr2,q);
+
+        sc.close();
     }
 }

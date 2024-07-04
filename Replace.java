@@ -30,5 +30,7 @@ public class Replace {
             mul=mul*10;
         }
         System.out.println("modified number "+n);
+
+        sc.close();
         }
 }

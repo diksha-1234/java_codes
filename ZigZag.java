@@ -61,5 +61,7 @@ public class ZigZag {
         {
             System.out.print(arr[i]+" ");
         }
+
+        sc.close();
     }
 }

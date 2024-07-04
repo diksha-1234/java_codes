@@ -28,5 +28,7 @@ public class Switch {
             default:
             System.out.println("Bye");
         }
+
+        sc.close();
     }
 }

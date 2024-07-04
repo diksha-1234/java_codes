@@ -14,7 +14,7 @@ public class PalindromeCounter {
     public static void main(String[] args) {
         String filename = "myfile.txt"; // Name of the file to be read
 
-        try (BufferedReader br = new BufferedReader(new FileReader("myfile.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
             String line;
             int palindromeCount = 0;
 

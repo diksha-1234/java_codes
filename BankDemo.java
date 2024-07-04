@@ -29,14 +29,14 @@ bank accounts.
 */
 
 
-class Bank{
+class BankD{
     private String name,add;
     private static int acc;
     private float bal;
     static{
         acc=1001;
     }
-    Bank(String s ,String ad,float b){
+    public BankD(String s ,String ad,float b){
         name=s;add=ad;bal=b;
     }
     public static void unique(){
@@ -72,14 +72,14 @@ class Bank{
 public class BankDemo
 {
 	public static void main(String[] args) {
-		Bank b=new Bank("Neha","Nagloi Chowk,Delhi",2000.50f);
+		BankD b=new BankD("Neha","Nagloi Chowk,Delhi",2000.50f);
 		b.display();
 		b.deposit(300.90f);
 		b.withdraw(400.00f);
 		b.changeAddress("Rohini,Delhi");
-		Bank.unique();
-		Bank b1=new Bank("Manish","Lodhi Colony,Dehli",4000.50f);
-                b1.display();
+		BankD.unique();
+		BankD b1=new BankD("Manish","Lodhi Colony,Dehli",4000.50f);
+        b1.display();
 		b1.deposit(200.90f);
 		b1.withdraw(700.00f);
 		b1.changeAddress("Patel Chowk,Dehli");

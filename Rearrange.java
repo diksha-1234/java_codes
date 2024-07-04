@@ -54,5 +54,7 @@ public class Rearrange {
        {
         System.out.print(arr[i]+" ");
        }
+
+       sc.close();
     }
 }

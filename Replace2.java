@@ -8,5 +8,7 @@ class Replace2{
         s=s.replaceAll("0","1");
         x=Integer.parseInt(s);
         System.out.println(x);
+
+        sc.close();
     }
 }

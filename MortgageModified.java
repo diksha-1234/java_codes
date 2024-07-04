@@ -39,5 +39,7 @@ public class MortgageModified {
         double mortgage=principal*Math.pow(1+monthlyRate,noOfPayments)/(Math.pow(1+monthlyRate,noOfPayments)-1);
         String modified_Mortgage=NumberFormat.getCurrencyInstance().format(mortgage);
         System.out.println(modified_Mortgage);
+
+        scanner.close();
     }
 }

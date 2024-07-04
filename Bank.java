@@ -53,5 +53,7 @@ public class Bank {
              default:
              System.out.println("invalid choice");
         }
+
+        sc.close();
     }
 }

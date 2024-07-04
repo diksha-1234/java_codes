@@ -8,6 +8,8 @@ public class DelVowel {
       System.out.println("enter any string");
       StringBuffer sb=new StringBuffer(sc.nextLine());
       delVowel(sb); 
+
+      sc.close();
     }
     public static void delVowel(StringBuffer sb){
         for(int i=0;i<sb.length();i++)

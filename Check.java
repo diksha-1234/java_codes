@@ -9,5 +9,7 @@ public class Check {
         System.out.println("Number is Even");
         else
         System.out.println("Number is Odd");
+
+        sc.close();
     }
 }

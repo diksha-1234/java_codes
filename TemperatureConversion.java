@@ -62,5 +62,7 @@ public class TemperatureConversion{
         c.changeTemp();
         f.display();
         c.display();
+
+        sc.close();
     }
 }

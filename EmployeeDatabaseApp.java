@@ -95,7 +95,7 @@ public class EmployeeDatabaseApp extends JFrame implements ActionListener {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             // Open a connection
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/employeedb", "root","your_sql_password");
+            Connection connection = DriverManager.getConnection(JDBC_URL,USERNAME,PASSWORD);
 
             // Create a prepared statement
             String query = "INSERT INTO employee (NAME, CODE, DESIGNATION, SALARY) VALUES (?, ?, ?, ?)";

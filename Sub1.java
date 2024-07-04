@@ -9,5 +9,7 @@ public class Sub1 {
         int secondNumber=sc.nextInt();
         int result=firstNumber-secondNumber;
         System.out.println("Subtraction of "+firstNumber+" and "+secondNumber+":"+result);
+
+        sc.close();
     }
 }

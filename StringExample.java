@@ -37,6 +37,8 @@ public class StringExample{
         WordExample w=new WordExample(s);
         w.countWord();
         w.placeWord();
+
+        scn.close();
     }
 }
 class WordExample{

@@ -38,5 +38,6 @@ class Pattern2{
         }
         System.out.println("occurence of pattern in string"+count);
 
+        sc.close();
     }
 }

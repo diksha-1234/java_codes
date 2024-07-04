@@ -12,5 +12,7 @@ public class Table {
             System.out.println(num+"*"+i+"="+num*i);
             i++;
         }while(i<=10);
+
+        sc.close();
     }
 }

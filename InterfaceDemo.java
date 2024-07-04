@@ -63,5 +63,7 @@ public class InterfaceDemo{
         c.volume();
         cl.volume();
         h.volume();
+
+        sc.close();
     }
 }

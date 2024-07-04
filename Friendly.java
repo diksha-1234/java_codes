@@ -50,5 +50,6 @@ public class Friendly {
         else{
             System.out.println("Not a Friendly pair");
         }
+        sc.close();
     }
 }
